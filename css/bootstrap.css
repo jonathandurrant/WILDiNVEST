@@ -7328,3 +7328,7 @@ button.close {
     display: none !important;
   }
 }
+/* My code for removing the caret in dropdown-menu */
+@media (max-width: 767px) {
+	span.caret {display:none}
+}
