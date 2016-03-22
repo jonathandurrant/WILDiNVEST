@@ -580,3 +580,14 @@ footer .marked-list li + li {
 footer * + .inline-list {
   margin-top: 34px;
 }
+/*========================================================
+My Edits  Section
+=========================================================*/
+/* For removing the caret in dropdown-menu */
+@media (max-width: 767px) {
+	span.fa-caret-down {display:none}
+}
+.chartInvest:hover span {
+	font-size: 30px;
+	-webkit-transition: font-size 0.65s;
+}
