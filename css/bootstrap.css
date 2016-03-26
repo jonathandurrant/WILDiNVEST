@@ -7328,3 +7328,7 @@ button.close {
     display: none !important;
   }
 }
+/* My additions */ 
+.links {
+	color: dodgerblue;
+}
