@@ -139,7 +139,8 @@ h3 + .offs {
 }
 /*==================       Icon      ====================*/
 .fa-sign-in,
-.fa-cog,
+.lineChart,
+.fa-shopping-cart,
 .fa-ban,
 .fa-group,
 .fa-check-circle,
@@ -147,7 +148,7 @@ h3 + .offs {
 .fa-phone-square,
 .fa-leaf,
 .fa-usd,
-.fa-money,
+.fa-pie-chart,
 .fa-arrow-up {
   display: inline-block;
   width: 109px;
@@ -163,15 +164,16 @@ h3 + .offs {
   transition: 0.3s all;
 }
 .fa-sign-in:before,
+.lineChart:before,
 .fa-ban:before,
 .fa-group:before,
-.fa-money:before,
+.fa-pie-chart:before,
 .fa-check-circle:before,
 .fa-bar-chart:before,
 .fa-phone-square:before,
 .fa-leaf:before,
 .fa-usd:before,
-.fa-cog:before,
+.fa-shopping-cart:before,
 .fa-arrow-up:before {
   line-height: 109px;
   color: #fff;
@@ -203,13 +205,14 @@ h3 + .offs {
   font-size: 53px;
 }
 .fa-group:before,
+.lineChart:before,
 .fa-check-circle:before,
 .fa-bar-chart:before,
 .fa-phone-square:before,
 .fa-leaf:before,
 .fa-usd:before,
-.fa-money:before,
-.fa-cog:before,
+.fa-pie-chart:before,
+.fa-shopping-cart:before,
 .fa-arrow-up:before {
   font-size: 50px;
 }
