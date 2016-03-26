@@ -139,6 +139,9 @@ h3 + .offs {
 }
 /*==================       Icon      ====================*/
 .fa-sign-in,
+.lineChart,
+.fa-shopping-cart,
+.fa-pie-chart,
 .fa-ban,
 .fa-group,
 .fa-check-circle,
@@ -168,6 +171,9 @@ h3 + .offs {
 .fa-phone-square:before,
 .fa-leaf:before,
 .fa-usd:before,
+.fa-pie-chart:before,
+.lineChart:before,
+.fa-shopping-cart:before,
 .fa-arrow-up:before {
   line-height: 109px;
   color: #fff;
@@ -204,6 +210,9 @@ h3 + .offs {
 .fa-phone-square:before,
 .fa-leaf:before,
 .fa-usd:before,
+.lineChart:before,
+.fa-pie-chart:before,
+.fa-shopping-cart:before,
 .fa-arrow-up:before {
   font-size: 50px;
 }
