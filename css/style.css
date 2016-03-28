@@ -603,3 +603,8 @@ My Edits  Section
 .links {
 	color: royalblue;
 }
+.info_style {
+	vertical-align:middle; 
+	font-size:35px; 
+	color:white;
+}
