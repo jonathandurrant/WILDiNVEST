@@ -608,3 +608,14 @@ My Edits  Section
 	font-size:35px; 
 	color:white;
 }
+.modal_style {
+	width:100%;
+}
+.tooltip > .tooltip-inner {
+	background-color: #dbd7d2; 
+	color: #FFFFFF; 
+	border: 1px solid black; 
+	padding: 15px;
+	width: 10%;
+	
+}

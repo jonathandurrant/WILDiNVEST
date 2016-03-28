@@ -64,7 +64,7 @@ class="fa fa-sort-desc"></span></a>
 								<a data-type='rd-navbar-brand' href="./">WILD<i>invest</i>
 								</a>
 								<span class="brand_slogan">
-									<!-- helping you invest -->Enabling you to <strong>earn more</strong>,<br> by investing in wildlife farming. 
+									<!-- helping you invest --><strong>earn more</strong> from your investment,<br> we enable you to breed wildlife <i>without a farm</i>.  
 								</span>
 							</h1>
 						</div>
@@ -86,7 +86,7 @@ class="fa fa-sort-desc"></span></a>
 						<div class="container">
 
 							<ul class="navbar-nav sf-menu" data-type="navbar">
-								<li class="dropdown">
+								<li class="dropdown active">
 									<a href="index-3.html">Investment Model <span class="fa fa-caret-down"></span></a>
 									<ul class="dropdown-menu">
 										<li>
@@ -128,7 +128,7 @@ CONTENT
 					<div id="camera" class="camera_wrap">
 						<div data-src="images/slide1.jpg">
 							<div class="camera_caption fadeIn text-center">
-								<span class="h2">We connect investors <br>with game farms</span>
+								<span class="h2"><br>with game farms</span>
 								<span class="h4">Mes cuml dia sed inenias ingerto lot aliiqt <br>dolore ipsum commete.</span>
 							</div>
 						</div>
@@ -161,11 +161,11 @@ CONTENT
 										<br><h3 class="text-primary">We handle the logistics</h3>
 										<h4>Choose between:</h4><br>
 										<ul style="list-style-type:circle;"><li><strong>Nyala:</strong> Investment = R150K - R2m</li><li><strong>Sable: </strong>Investment = R2m - R20m</li></ul>
-										<a href="#" class="btn-link pulse"><span alt="" class="fa fa-info info_style" style="font-size:35px;"></span></a>
+										<a href="#purchase_modal" class="btn-link pulse" data-toggle="modal"><span alt="" class="fa fa-info info_style" style="font-size:35px;"></span></a>
 									</div>
 								</div>
 							</div>
-
+							
 							<div class="col-md-4 col-sm-4 col-xs-12 mg-add wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
 								<div class="panel" >
 									<div class="panel-heading" >
@@ -175,7 +175,7 @@ CONTENT
 										<h2>Wait for your investment to grow</h2><br>
 										<h3 class="text-primary">we have the land and expertise</h3>
 										<br><ul><li>5 year agreement to breed your animals on our farm</li><li>No extra cost to you</li><li> Access to high quality breeding males</li></ul>
-										<a href="#" class="btn-link pulse"><span alt="" class="fa fa-info info_style" style="font-size:35px;"></span></a>
+										<a href="#wait_modal" data-toggle="modal" class="btn-link pulse"><span alt="" class="fa fa-info info_style" style="font-size:35px;"></span></a>
 									</div>
 								</div>
 							</div>
@@ -190,14 +190,81 @@ CONTENT
 										<h3 class="text-primary">We find buyers for your animals</h3><br>
 
 										<ul><li>You herd of animals will have grown expontentially</li><li>Profits are shared between you and the farm</li></ul>
-										<a href="#" class="btn-link pulse"><span alt="" class="fa fa-info info_style" style="font-size:35px;"></span></a>
+										<a href="#profit_modal" data-toggle="modal" class="btn-link pulse"><span alt="" class="fa fa-info info_style" style="font-size:35px;"></span></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
+				
+				<div class="container">
+					<hr/>
+				</div>
+				
+				<section class="well2">
+					<div class="container center767">
+						<div class="row">
+							<div class=" col-xs-12 center991 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s" style="text-align:center;">
+								<h2>Profit Calculator</h2><br>
+								<a type="button" class="btn btn-default btn-lg" id="profitCalc_btn"><span class="fa fa-xlg fa-calculator" style="font-size:30px; vertical-align:middle; text-align:left;"></span><span style="text-align:center;"> Start here</span> </a>
 
+								<p>As with any investment model, the projected ROI is not guaranteed. Please refer to <a href="#" class="links">Risk protection</a> for details on the insurances we offer to our investors. </p>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<div class="container">
+					<hr/>
+				</div>
+
+				<section class="well3">
+					<div class="container center767" id="riskProtection">
+						<h2>Risk Protection</h2>
+
+						<div class="row offs2">
+							<div class="col-md-4 col-sm-12 col-xs-12">
+								<img src="images/page-3_img01.jpg" alt=""/>
+							</div>
+							<div class="col-md-5 col-sm-6 col-xs-12">
+								<h4 class="text-primary">Risk Protection </h4>
+							
+								<ul>
+									<li>The <a href="#">South African Game trade</a> is a mature and robust market, but like all investments it is susceptible to various risks. </li>
+									<li>Our insurance covers your investment for all the following: 
+										<ul>
+											<li>Death of animals, due to poaching (usually not a concern for this type of animal)</li>
+											<li>Death of animals, due to disease</li>
+											<li>Loss of animals, due to escape</li>
+										</ul>
+									</li>
+									<li>We do not protect against the following:
+										<ul>
+											<li>Market crash</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+								<ul class="marked-list  text-secondary">
+									<li><a href="#"></a></li>
+									<li><a href="#">Augue Nec Augue</a></li>
+									<li><a href="#">Nam Elit Agna Endrerit Sit</a></li>
+									<li><a href="#">Amet Tincidunt Ac Viverra</a></li>
+									<li><a href="#">Sed Nulla Donec Porta Diam</a></li>
+									<li><a href="#">Quisque Diam Lorem</a></li>
+									<li><a href="#">Interdum Vitae Dapibus Ac</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- ===
+sectin removed 
+				
+				
 				<section class="parallax parallax1 well2 white center767" data-url="https://placehold.it/1950x2540" data-mobile="true" data-speed="0.8">
 					<div class="container">
 						<div class="row">
@@ -211,6 +278,8 @@ CONTENT
 						</div>
 					</div>
 				</section>
+
+=== -->
 
 				<!--============================================ç
 Extra Well
@@ -273,94 +342,6 @@ dum et condimentum metusip dolore.</p>
 				<div class="container">
 					<hr/>
 				</div>
-
-				<section class="well4">
-					<div class="container">
-						<!-- 
-<div class="row">
-<div class="col-md-6 col-sm-12 col-xs-12 center991">
-<h2>Platform Features</h2>
-<h4 class="text-primary">Mes cuml dia sed inenias cet inger lot aliiqtes dolore ipsum amemod
-ictor utligulat.</h4>
-
-<p>Mes cuml dia sed in lacus ut eniascet ing erto aliiqt es site amet eismod ictorligulate ameti
-dapibus ticdu nt mtsen lusto dolor ltissim comes cuml dia sed inertio lacusu eni ascet dol
-ingerto aliiqt sit. Amet eism com odictor ut ligulate cot ameti dapibu emo.</p>
-
-<div class="row offs">
-<div class="col-md-6 col-sm-12 col-xs-12">
-<ul class="marked-list text-secondary">
-<li><a href="#">Advanced charting</a></li>
-<li><a href="#">Complex options trading</a></li>
-<li><a href="#">Front-end API</a></li>
-</ul>
-</div>
-<div class="col-md-6 col-sm-12 col-xs-12">
-<ul class="marked-list text-secondary">
-<li><a href="#">Hot key shortcuts</a></li>
-<li><a href="#">Customizable layouts</a></li>
-<li><a href="#">Complete stability</a></li>
-</ul>
-</div>
-</div>
-<a href="#" class="btn-sm btn-sm__mod fa-search">All features</a>
-</div>
--->
-
-						<div class="col-xs-12 center991">
-							<h2>Current market value (average)</h2>
-							<table>
-								<tr class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
-									<td>
-										<h4 class="text-secondary">Sable (Male, breeding quality) </h4>
-										<a class="text-uppercase text-primary" href="#">Data <span
-																								   class="fa  fa-caret-right"></span></a>
-									</td>
-									<td><span>R500K - R10m</span><br/>
-
-										<p class="h5 text-primary">Per animal</p>
-									</td>
-								</tr>
-
-								<tr class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
-									<td>
-										<h4 class="text-secondary">Sable (Female, pregnant)</h4>
-										<a class="text-uppercase text-primary" href="#">data <span
-																								   class="fa  fa-caret-right"></span></a>
-									</td>
-									<td><span>R300K</span><br/>
-
-										<p class="h5 text-primary">per Animal</p>
-									</td>
-								</tr>
-								<tr class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s">
-									<td>
-										<h4 class="text-secondary">Nyala (Male, breeding quality) </h4>
-										<a class="text-uppercase text-primary" href="#">data <span class="fa fa-caret-right"></span></a>
-									</td>
-									<td><span>R150K</span><br/>
-
-										<p class="h5 text-primary">per Animal</p>
-									</td>
-								</tr>
-
-								<tr class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s">
-									<td>
-										<h4 class="text-secondary">Nyala (Female, pregnant)</h4>
-										<a class="text-uppercase text-primary" href="#">data <span
-																								   class="fa  fa-caret-right"></span></a>
-									</td>
-									<td><span>R25K</span><br/>
-
-										<p class="h5 text-primary">per Animal</p>
-									</td>
-								</tr>
-							</table>
-							<a href="#" class="btn-sm btn-sm__mod fa-book">Source</a>
-
-						</div>
-					</div>
-				</section>
 			</main>
 
 			<!--========================================================
@@ -438,6 +419,65 @@ FOOTER
 				</div>
 			</footer>
 		</div>
+		<!-- =====================================================
+		Modals
+		=======================================================--> 
+		
+<!-- Purchase modal --> 
+		<div class="modal fade modal_style" role="dialog" id="purchase_modal">
+			<p style="padding:30px;"></p>
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title">Purchasing your Animals</h2>
+					</div>
+					<div class="modal-body">
+						<p>We can find the best deal and take care of all the logistics.<br>Whilst your animals are sedated for the relocation, we will take DNA samples, tag your animals, and embed microchips for lineage tracking. </p>
+						<p style="padding:10px;"></p>
+						<button type="button" class="btn btn-default btn" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!-- Wait modal -->
+		<div class="modal fade modal_style" role="dialog" id="wait_modal">
+			<p style="padding:30px;"></p>
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title">Breeding </h2>
+					</div>
+					<div class="modal-body">
+						<p> Fertile females produce at least 1 offspring per year. <br> Assuming that 90% females are fertile, and that 50% offs`ring are female, your herd will grow by an order of 5, over the 5 year duration of the agreement.   <br> See <a href="#" class="links">Profit calulation</a> for details. </p>
+						<p style="padding:10px;"></p>
+						<button type="button" class="btn btn-default btn" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+<!-- Profit modal --> 
+		<div class="modal fade modal_style" role="dialog" id="profit_modal">
+			<p style="padding:30px;"></p>
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title">5 Year Contract </h2>
+					</div>
+					<div class="modal-body">
+						<p>You actual ROI (after costs are deducted and profits have been shared) can be as high as 400%  for Sables, and 160% for Nyala.<br> See <a href="#" class="links">Profit calulation</a> for details. </p>
+						<p style="padding:10px;"></p>
+						<button type="button" class="btn btn-default btn" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
 
 
 

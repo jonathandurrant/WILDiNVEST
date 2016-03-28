@@ -319,4 +319,11 @@ var o = $('#camera');
 })(jQuery);
 
 
-
+/*
+	My code
+		*/ 
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip(); 
+});
+	
+	
